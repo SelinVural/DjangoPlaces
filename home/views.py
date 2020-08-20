@@ -58,6 +58,7 @@ def contact(request):
             data.subject = form.cleaned_data['subject']
             data.message = form.cleaned_data['message']
             data.ip = request.META.get('REMOTE_ADDR')
+            data.status = "New"
             data.save()
             messages.success(request, "Mesajınız başarıyla alınmıştır, teşekkürler.")
             return HttpResponseRedirect('/contact')
@@ -126,14 +127,14 @@ def place_detail(request, id, slug):
     place = Place.objects.get(pk=id, status='True')
     profil = UserProfile.objects.get(user_id=place.user_id)
     recentP = Place.objects.filter(status='True').order_by('-id')[:5]
-    # recentCom = Comment.objects.filter(status='True').order_by('-id')[:5]
+    recentCom = Comment.objects.filter(status='True').order_by('-id')[:5]
     images = Images.objects.filter(place_id=id)
-    # comments = Comment.objects.filter(place_id=id, status='True')
+    comments = Comment.objects.filter(place_id=id, status='True')
     context = {'place': place,
                'imgofplace': images,
-               # 'comments': comments,
+               'comments': comments,
                'recentP': recentP,
-               # 'recentCom': recentCom,
+               'recentCom': recentCom,
                'profil': profil}
     context.update(common())
     return render(request, 'placeDetail.html', context)
