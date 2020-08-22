@@ -20,7 +20,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e8b88e32-99dc-4ffd-a38e-6c0653261ba1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/uploads/images/peri-bacalari-01-692x376.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uploads/images/peri-bacalari-01-692x376_6Omoa3V.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/templates/User/commentsPage.html" beforeDir="false" afterPath="$PROJECT_DIR$/home/templates/User/commentsPage.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/templates/User/placesPage.html" beforeDir="false" afterPath="$PROJECT_DIR$/home/templates/User/placesPage.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/templates/footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/home/templates/footer.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/templates/gallery.html" beforeDir="false" afterPath="$PROJECT_DIR$/home/templates/gallery.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/templates/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/home/templates/header.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/user/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,7 +100,7 @@
       <method v="2" />
     </configuration>
   </component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SpellCheckerSettings" BundledDictionaries="0" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -105,6 +114,8 @@
       <workItem from="1596542835533" duration="15854000" />
       <workItem from="1596639638003" duration="1913000" />
       <workItem from="1597849197589" duration="1476000" />
+      <workItem from="1597981980319" duration="1624000" />
+      <workItem from="1598096936336" duration="14537000" />
     </task>
     <servers />
   </component>
@@ -132,6 +143,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="552" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1596542868784" />
+    <state x="406" y="11" key="CommitChangelistDialog2" timestamp="1598122220212">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="406" y="11" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1598122220212" />
     <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1596641047462">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

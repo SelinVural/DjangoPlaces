@@ -101,7 +101,7 @@ def addplaces(request):
 
 @login_required(login_url='/login')
 def places(request):
-    # menu = Menu.objects.all()
+
     place = Place.objects.filter(user_id=request.user.id)
     context = {
         'places': place,
